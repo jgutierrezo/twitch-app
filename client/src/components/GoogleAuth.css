@@ -1,0 +1,23 @@
+.btn {
+    display:flex;
+    background-color: rgb(198, 7, 7);
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+
+    position: absolute;
+    top: .1rem;
+    right: .1rem;
+    
+  }
+
+  .login-text{
+   
+    padding-top: 0.1rem;
+    padding-left: 0.5rem;
+
+
+  }
