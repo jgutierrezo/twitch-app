@@ -4,8 +4,6 @@ import { connect } from "react-redux";
 import { signIn, signOut } from "./actions";
 
 const GoogleAuth = (props) => {
-  //const [isSignedIn = null, setIsSignedIn] = useState(0);
-
   //Hook equivalent to: ComponentDidMount
   useEffect(() => {
     window.gapi.load("client:auth2", () => {
