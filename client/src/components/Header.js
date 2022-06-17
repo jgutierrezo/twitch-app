@@ -13,11 +13,6 @@ const Header = () => {
         <Link to="/">Streams</Link>
       </div>
       <GoogleAuth className="Login" />
-      {/*
-      <div className="Login">
-        <Link to="/">Login</Link>
-      </div>
-  */}
     </div>
   );
 };
