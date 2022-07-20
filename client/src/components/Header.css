@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-a{
+.NavBar a{
     color: white;
     text-decoration: inherit;/* To remove the underline*/
     font-size: 1rem;

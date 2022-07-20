@@ -1,0 +1,27 @@
+:root{
+    --margin-left: .2rem;
+}
+
+label{
+    display: inline-block;
+    margin-top: 0.3rem;
+    margin-left: var(--margin-left);
+    
+}
+input{
+    width: 20rem;
+    padding: .1rem;
+    margin-top: .2rem;
+
+    margin-left: var(--margin-left);
+    
+}
+
+.submit-button{
+    border-color: rgba(128, 128, 128, 0.04);
+    border-radius: .5rem;
+    padding: .3rem .6rem;
+    cursor: pointer;
+    margin-top: .5rem;
+    margin-left: var(--margin-left);
+}

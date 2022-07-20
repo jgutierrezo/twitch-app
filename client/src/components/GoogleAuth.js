@@ -34,7 +34,6 @@ const GoogleAuth = (props) => {
   };
 
   const loginState = () => {
-    console.log(props.isAuthenticated.isSignedIn);
     if (props.isAuthenticated === null) {
       return null;
     }
@@ -74,7 +73,7 @@ const GoogleAuth = (props) => {
 export default connect(
   (storeState) => {
     return {
-      isAuthenticated: storeState.AuthenticationReducer,
+      isAuthenticated: storeState.authentication,
     };
   },
   { signIn, signOut }

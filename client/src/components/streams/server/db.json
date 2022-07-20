@@ -1,0 +1,35 @@
+{
+  "streams": [
+    {
+      "title": "React marathon",
+      "description": "Accompany me in this React challenges",
+      "id": 1
+    },
+    {
+      "title": "Super foods",
+      "description": "Description of the best foods for your brain",
+      "id": 2
+    },
+    {
+      "title": "Boruto analysis",
+      "description": "I will discuss the most interesting theories of the Boruto anime ",
+      "id": 3
+    },
+    {
+      "title": "Yorel Stand Up comedy session",
+      "description": "Periquito",
+      "userId": "102291584943700964096",
+      "id": 4
+    },
+    {
+      "title": "Changed test",
+      "description": "Changed description",
+      "id": 6
+    },
+    {
+      "title": "Manitoba",
+      "description": "pot pot pot",
+      "id": 7
+    }
+  ]
+}
